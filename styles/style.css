@@ -7,22 +7,21 @@
 }
 .btn-primary{
     color: #FFFFFF;
+    /* height:64px; */
+    border-radius: 5px;
+    background: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
-    background: #FD6E0A;
-    border-radius: 5px;
     border: 0;
     padding: 18px 35px;
 }
-
 .header{
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position:bottom right, left;
+    background-position: bottom right, left;
 }
-
-/* header and navigation style */
+/* header and navigation styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -41,17 +40,17 @@ nav li{
     margin-left: 50px;
 }
 
-/* banner styles */
+/*  banner styles  */    
 .banner{
     display: flex;
-    text-align: center;
+    align-items: center;
     margin: 0 200px;
 }
 .banner-sub-title{
     color: #474747;
     font-weight: 600;
     font-size: 45px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 .banner-title{
     color: #181818;
@@ -59,10 +58,9 @@ nav li{
     font-size: 85px;
 }
 .banner-decsription{
-    color: #757575;
-    font-weight: 400;
+    color: #757575 ;
     font-size: 18px;
-    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 
