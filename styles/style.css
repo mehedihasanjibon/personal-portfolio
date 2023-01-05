@@ -141,3 +141,46 @@ section{
     line-height: 28px;
 }
 
+/* resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
