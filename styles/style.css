@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
     color: #FD6E0A;
@@ -13,6 +13,13 @@
     border-radius: 5px;
     border: 0;
     padding: 18px 35px;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position:bottom right, left;
 }
 
 /* header and navigation style */
@@ -33,3 +40,34 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+
+/* banner styles */
+.banner{
+    display: flex;
+    text-align: center;
+    margin: 0 200px;
+}
+.banner-sub-title{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px ;
+}
+.banner-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-decsription{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
