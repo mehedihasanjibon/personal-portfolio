@@ -14,6 +14,7 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
+    cursor: pointer;
 }
 .header{
     background-color: #FFF8F3;
