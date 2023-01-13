@@ -217,10 +217,18 @@ input{
         background-image: none;
     }
     .skills-container, 
-    .resume-content{
+    .resume-content,
+    .contact{
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
+    }
+
+    .contact{
+        padding: 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 5px 5px;
     }
 }
 
