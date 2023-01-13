@@ -210,3 +210,20 @@ section{
 input{
     height: 64px;
 }
+
+/* Responsive styles  */
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+    .skills-container, 
+    .resume-content{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+}
+
+.hide{
+    display: none;
+}
