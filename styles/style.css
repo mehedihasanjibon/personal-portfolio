@@ -216,22 +216,35 @@ input{
     .header{
         background-image: none;
     }
+    nav,
+    .banner, 
     .skills-container, 
-    .resume-content,
+    .resume-content, 
+    .about-info-container, 
     .contact{
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
     }
-
-    .contact{
+    .banner{
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    nav li{
+        margin-left: 5px;
+    }
+    .about, .contact{
         padding: 20px;
     }
     .contact input[type="text"], input[type="email"], textarea{
-        padding: 0 5px 5px;
+        padding: 0 15px 5px;
     }
-}
-
-.hide{
-    display: none;
 }
