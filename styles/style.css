@@ -248,3 +248,22 @@ input{
         padding: 0 15px 5px;
     }
 }
+
+ /* Responsive tablets style */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact, .banner{
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
+
